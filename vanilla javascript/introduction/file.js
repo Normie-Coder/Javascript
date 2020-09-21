@@ -1,1 +1,3 @@
-alert("I'm javascript...");
+console.log(undefined > 0);
+console.log(undefined < 0);
+console.log(undefined == 0);
