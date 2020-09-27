@@ -1,18 +1,13 @@
 'use strict';
 
-let ladder = {
-  step: 0,
-  up() {
-    this.step++;
-    return this;
-  },
-  down() {
-    this.step--;
-    return this;
-  },
-  showStep: function () {
-    console.log(this.step);
+let user = {
+  name: 'John',
+
+  toString() {
+    return this.name;
   },
 };
 
-ladder.up().up().down().showStep();
+console.log(user);
+
+console.log(user + 500);
